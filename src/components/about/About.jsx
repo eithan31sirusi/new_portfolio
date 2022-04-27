@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ABOUT_ME from "../../assets/about_me.png";
+import ABOUT_ME from "../../assets/me_and_kids.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -40,10 +40,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
-            voluptatem eius dolorem maiores nihil ducimus at rem ullam
-            reprehenderit quidem quia deserunt, molestiae, eligendi amet
-            repellat molestias quos totam.
+            Self-motivated and a team player with a can-do approach. Passion for
+            creativity and web design. Eager to learn and continue growing as a
+            Full-Stack Developer
           </p>
 
           <a href="#contact" className="btn btn-primary">
