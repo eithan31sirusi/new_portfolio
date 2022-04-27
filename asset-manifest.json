@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new_portfolio/static/css/main.6ea38694.css",
-    "main.js": "/new_portfolio/static/js/main.687b4f05.js",
+    "main.js": "/new_portfolio/static/js/main.8d94e767.js",
     "static/media/cartoon.png": "/new_portfolio/static/media/cartoon.16d5f57ed759438f21b6.png",
     "static/media/Inkedhook2_LI.jpg": "/new_portfolio/static/media/Inkedhook2_LI.5ee8928331c602f5cfae.jpg",
     "static/media/WP.png": "/new_portfolio/static/media/WP.75b29866e3948b40ccc2.png",
@@ -12,13 +12,15 @@
     "static/media/clothing_project.png": "/new_portfolio/static/media/clothing_project.26ce60d0433c25a021cc.png",
     "static/media/me_and_kids.png": "/new_portfolio/static/media/me_and_kids.12d68ed718eb8881f679.png",
     "static/media/Eithan_CV .pdf": "/new_portfolio/static/media/Eithan_CV .b14dd93e27b5c8b904bc.pdf",
+    "static/media/placeholder.jpg": "/new_portfolio/static/media/placeholder.b0902b10214a5048ed4b.jpg",
     "static/media/ZOOM_INTERVIEW.png": "/new_portfolio/static/media/ZOOM_INTERVIEW.bee313f82b83d21c56ac.png",
+    "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
     "main.6ea38694.css.map": "/new_portfolio/static/css/main.6ea38694.css.map",
-    "main.687b4f05.js.map": "/new_portfolio/static/js/main.687b4f05.js.map"
+    "main.8d94e767.js.map": "/new_portfolio/static/js/main.8d94e767.js.map"
   },
   "entrypoints": [
     "static/css/main.6ea38694.css",
-    "static/js/main.687b4f05.js"
+    "static/js/main.8d94e767.js"
   ]
 }
