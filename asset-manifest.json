@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/new_portfolio/static/css/main.e49636c0.css",
+    "main.js": "/new_portfolio/static/js/main.fe0d390f.js",
+    "static/media/me.png": "/new_portfolio/static/media/me.e5b4b537875394d81017.png",
+    "static/media/Eithan_CV .pdf": "/new_portfolio/static/media/Eithan_CV .b14dd93e27b5c8b904bc.pdf",
+    "static/media/about_me.png": "/new_portfolio/static/media/about_me.ede80ad153b492f34fe9.png",
+    "static/media/portfolio5.png": "/new_portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/new_portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/new_portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/new_portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/new_portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/new_portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/new_portfolio/index.html",
+    "main.e49636c0.css.map": "/new_portfolio/static/css/main.e49636c0.css.map",
+    "main.fe0d390f.js.map": "/new_portfolio/static/js/main.fe0d390f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e49636c0.css",
+    "static/js/main.fe0d390f.js"
+  ]
+}
