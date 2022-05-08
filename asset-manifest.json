@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.3eb65127.css",
+    "main.css": "/new_portfolio/static/css/main.00aff6d9.css",
     "main.js": "/new_portfolio/static/js/main.1cf24c05.js",
     "static/media/cartoon.png": "/new_portfolio/static/media/cartoon.16d5f57ed759438f21b6.png",
     "static/media/Inkedhook2_LI.jpg": "/new_portfolio/static/media/Inkedhook2_LI.5ee8928331c602f5cfae.jpg",
@@ -16,11 +16,11 @@
     "static/media/ZOOM_INTERVIEW.png": "/new_portfolio/static/media/ZOOM_INTERVIEW.bee313f82b83d21c56ac.png",
     "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
-    "main.3eb65127.css.map": "/new_portfolio/static/css/main.3eb65127.css.map",
+    "main.00aff6d9.css.map": "/new_portfolio/static/css/main.00aff6d9.css.map",
     "main.1cf24c05.js.map": "/new_portfolio/static/js/main.1cf24c05.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eb65127.css",
+    "static/css/main.00aff6d9.css",
     "static/js/main.1cf24c05.js"
   ]
 }
