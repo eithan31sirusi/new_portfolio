@@ -11,21 +11,21 @@ import Footer from "./components/footer/Footer";
 
 import AnimatedBG from "./UI/AnimatedBG";
 
-import "./app.css";
-
 const App = () => {
   return (
-    <AnimatedBG>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <MyArt />
-      <Contact />
-      <Footer />
-    </AnimatedBG>
+    <>
+      <AnimatedBG>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <MyArt />
+        <Contact />
+        <Footer />
+      </AnimatedBG>
+    </>
   );
 };
 
