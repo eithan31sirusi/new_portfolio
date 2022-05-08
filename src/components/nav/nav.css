@@ -34,7 +34,7 @@ nav a.active {
 
 @media screen and (max-width: 414px) {
   nav {
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
   }
