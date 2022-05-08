@@ -32,6 +32,20 @@ nav a.active {
   color: var(--color-bg);
 }
 
+@media screen and (max-width: 650px) {
+  nav {
+    left: 45%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  nav {
+    left: 40%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+  }
+}
 @media screen and (max-width: 414px) {
   nav {
     left: 50%;
