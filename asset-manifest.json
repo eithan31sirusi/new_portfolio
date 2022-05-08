@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.6ea38694.css",
-    "main.js": "/new_portfolio/static/js/main.8d94e767.js",
+    "main.css": "/new_portfolio/static/css/main.ea1c8a56.css",
+    "main.js": "/new_portfolio/static/js/main.90573086.js",
     "static/media/cartoon.png": "/new_portfolio/static/media/cartoon.16d5f57ed759438f21b6.png",
     "static/media/Inkedhook2_LI.jpg": "/new_portfolio/static/media/Inkedhook2_LI.5ee8928331c602f5cfae.jpg",
     "static/media/WP.png": "/new_portfolio/static/media/WP.75b29866e3948b40ccc2.png",
     "static/media/starwars.png": "/new_portfolio/static/media/starwars.b1789196b20af6f903e9.png",
     "static/media/Inked.jpg": "/new_portfolio/static/media/Inked.9e9d2d9cfb4df018930f.jpg",
+    "static/media/main_profile_pic.png": "/new_portfolio/static/media/main_profile_pic.a12d7e44debd98b388d7.png",
     "static/media/junpradox.jpg": "/new_portfolio/static/media/junpradox.d34fe5cc0aadfdea9c85.jpg",
-    "static/media/me.png": "/new_portfolio/static/media/me.e5b4b537875394d81017.png",
+    "static/media/me.png": "/new_portfolio/static/media/me.d29281a066dd3dbefed8.png",
     "static/media/clothing_project.png": "/new_portfolio/static/media/clothing_project.26ce60d0433c25a021cc.png",
-    "static/media/me_and_kids.png": "/new_portfolio/static/media/me_and_kids.12d68ed718eb8881f679.png",
     "static/media/Eithan_CV .pdf": "/new_portfolio/static/media/Eithan_CV .b14dd93e27b5c8b904bc.pdf",
     "static/media/placeholder.jpg": "/new_portfolio/static/media/placeholder.b0902b10214a5048ed4b.jpg",
     "static/media/ZOOM_INTERVIEW.png": "/new_portfolio/static/media/ZOOM_INTERVIEW.bee313f82b83d21c56ac.png",
     "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
-    "main.6ea38694.css.map": "/new_portfolio/static/css/main.6ea38694.css.map",
-    "main.8d94e767.js.map": "/new_portfolio/static/js/main.8d94e767.js.map"
+    "main.ea1c8a56.css.map": "/new_portfolio/static/css/main.ea1c8a56.css.map",
+    "main.90573086.js.map": "/new_portfolio/static/js/main.90573086.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ea38694.css",
-    "static/js/main.8d94e767.js"
+    "static/css/main.ea1c8a56.css",
+    "static/js/main.90573086.js"
   ]
 }
