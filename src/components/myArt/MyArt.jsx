@@ -2,9 +2,9 @@ import React from "react";
 import "./myArt.css";
 import ART1 from "../../assets/arts/starwars.png";
 import ART2 from "../../assets/arts/ZOOM_INTERVIEW.png";
-import ART3 from "../../assets/arts/Inked.jpg";
+import ART3 from "../../assets/arts/Inked.png";
 import ART4 from "../../assets/arts/Inkedhook2_LI.jpg";
-import ART5 from "../../assets/arts/junpradox.jpg";
+import ART5 from "../../assets/arts/junpradox.png";
 import ART6 from "../../assets/arts/WP.png";
 import ART7 from "../../assets/arts/cartoon.png";
 
