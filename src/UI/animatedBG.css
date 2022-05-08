@@ -6,7 +6,7 @@
   width: 100%;
   height: fit-content;
   position: absolute;
-  z-index: -1;
+  z-index: -99;
 }
 
 .circles {
@@ -16,6 +16,7 @@
   width: 100%;
   height: 100%;
   overflow: unset;
+  z-index: -99;
 }
 
 .circles li {

@@ -18,7 +18,8 @@ const Contact = () => {
       .sendForm(
         "service_frgmv5c",
         "template_dxz667m",
-        e.target /* we need to add the userid! */
+        e.target,
+        "KF7EFQKoBhcp7aC9P"
       )
       .then(
         (result) => {
