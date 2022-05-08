@@ -1,10 +1,12 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import AnimatedBG from "../../UI/AnimatedBG";
 
 const Experience = () => {
   return (
     <section id="experience">
+      <AnimatedBG />
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 

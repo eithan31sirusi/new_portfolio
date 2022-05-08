@@ -4,6 +4,8 @@ import IMG1 from "../../assets/clothing_project.png";
 import IMG2 from "../../assets/placeholder.jpg";
 import IMG3 from "../../assets/placeholder2.jpg";
 
+import AnimatedBG from "../../UI/AnimatedBG";
+
 const data = [
   {
     id: 1,
@@ -31,6 +33,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
+      <AnimatedBG />
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

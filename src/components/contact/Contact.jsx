@@ -6,6 +6,8 @@ import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
+import AnimatedBG from "../../UI/AnimatedBG";
+
 const Contact = () => {
   const form = useRef();
 
@@ -32,6 +34,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
+      <AnimatedBG />
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 

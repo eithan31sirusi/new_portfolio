@@ -9,9 +9,13 @@ import MyArt from "./components/myArt/MyArt";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+import AnimatedBG from "./UI/AnimatedBG";
+
+import "./app.css";
+
 const App = () => {
   return (
-    <>
+    <AnimatedBG>
       <Header />
       <Nav />
       <About />
@@ -21,7 +25,7 @@ const App = () => {
       <MyArt />
       <Contact />
       <Footer />
-    </>
+    </AnimatedBG>
   );
 };
 

@@ -5,7 +5,7 @@
 }
 
 .about__me {
-  width: fit-content;
+  width: 80%;
 
   border-radius: 2rem;
   background: linear-gradient(
@@ -21,12 +21,8 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
-}
 
-.about__me-image:hover {
-  transform: rotate(0);
+  transition: var(--transition);
 }
 
 .about__cards {
@@ -47,7 +43,7 @@
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  cursor: default;
+  cursor: pointer;
 }
 
 .about__icon {
