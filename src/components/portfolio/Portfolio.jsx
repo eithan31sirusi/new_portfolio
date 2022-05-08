@@ -34,7 +34,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <AnimatedBG />
-      <h5>My Recent Work</h5>
+      <h4>My Recent Work</h4>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

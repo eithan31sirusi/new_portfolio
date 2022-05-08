@@ -45,7 +45,7 @@ const MyArt = () => {
   return (
     <section id="testimonials">
       <h2 style={{ marginBottom: "unset" }}>My Art</h2>
-      <h5 style={{ marginBottom: "2rem" }}>Comedy Sketchs</h5>
+      <h4 style={{ marginBottom: "2rem" }}>Comedy Sketchs</h4>
 
       <Swiper
         className="container testimonials__container"
@@ -54,6 +54,7 @@ const MyArt = () => {
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
       >
         {data.map(({ avatar, name, review }, index) => {
           return (

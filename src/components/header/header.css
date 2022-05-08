@@ -98,4 +98,8 @@ header {
     margin-top: 1.7rem;
     gap: 1rem;
   }
+
+  .me img {
+    transform: translate(-8%, 0);
+  }
 }

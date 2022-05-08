@@ -58,11 +58,16 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 section {
   margin-top: 8rem;
 }
 
 section > h2,
+section > h4,
 section > h5 {
   text-align: center;
   color: var(--color-light);
