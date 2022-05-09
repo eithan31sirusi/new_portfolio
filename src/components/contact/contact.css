@@ -45,6 +45,11 @@
   font-size: 0.8rem;
 }
 
+.success_message {
+  color: green;
+  font-size: 1rem;
+}
+
 /* ================= FORM ================== */
 form {
   display: flex;

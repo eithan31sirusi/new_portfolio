@@ -1,6 +1,5 @@
 .area {
-  background: #0d1046;
-  background: -webkit-linear-gradient(to left, #0d1046, #4e54c8);
+  background: linear-gradient(to bottom, #0d1046, #303697);
   width: 100%;
   height: fit-content;
   position: absolute;

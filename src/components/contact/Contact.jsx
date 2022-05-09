@@ -19,8 +19,7 @@ const Contact = () => {
   useEffect(() => {
     console.log(formErrors);
 
-    const objValues = Object.keys(formErrors).length;
-    if (objValues === 0) {
+    if (Object.keys(formErrors).length === 0) {
       if (isSubmitting) {
         setSend(true);
       }
@@ -34,16 +33,14 @@ const Contact = () => {
     const { name, value } = e.target;
 
     setFormValues({ ...formValues, [name]: value });
+    setFormErrors(validateForm(formValues));
 
     console.log(formValues);
   };
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    setFormErrors(validateForm(formValues));
     setIsSubmitting(true);
-
     if (send) {
       emailjs
         .sendForm(
@@ -82,8 +79,16 @@ const Contact = () => {
             </a>
           </article>
         </div>
+
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
+          {Object.keys(formErrors).length === 0 && isSubmitting ? (
+            <div className="success_message">
+              The message was received successfully!
+            </div>
+          ) : (
+            ""
+          )}
           <p className="error_message">{formErrors.userName}</p>
           <input
             type="text"
