@@ -44,7 +44,7 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h3 style={{ textAlign: "center" }}>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github

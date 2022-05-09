@@ -44,7 +44,14 @@
 form {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+}
+
+form > input {
+  margin-bottom: 1.2rem;
+}
+
+form > button {
+  margin-top: 1.2rem;
 }
 
 input,
