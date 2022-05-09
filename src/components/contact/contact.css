@@ -40,6 +40,11 @@
   font-size: 0.8rem;
 }
 
+.error_message {
+  color: red;
+  font-size: 0.8rem;
+}
+
 /* ================= FORM ================== */
 form {
   display: flex;
