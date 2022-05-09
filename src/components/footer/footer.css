@@ -62,7 +62,10 @@ footer a {
 @media screen and (max-width: 600px) {
   .permalinks {
     flex-direction: column;
-    gap: 1.5rem;
+  }
+
+  .permalinks > li {
+    margin: 0 0.5rem;
   }
 
   .footer__socials {
