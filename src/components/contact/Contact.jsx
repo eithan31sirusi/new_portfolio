@@ -4,62 +4,65 @@ import { MdOutlineEmail } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
-import { validateForm } from "../../helpers/validateForm";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { validationSchema } from "../../helpers/validateForm";
+
+import { useForm } from "react-hook-form";
 
 import AnimatedBG from "../../UI/AnimatedBG";
 
 const Contact = () => {
-  const initialValues = { userName: "", email: "", message: "" };
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isFormValid, setIsFormValid] = useState(true);
 
-  const [formValues, setFormValues] = useState(initialValues);
-  const [formErrors, setFormErrors] = useState({});
-  const [send, setSend] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors, isDirty },
+  } = useForm({
+    defaultValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
 
-  useEffect(() => {
-    console.log(formErrors);
+    resolver: yupResolver(validationSchema),
+  });
 
-    if (Object.keys(formErrors).length === 0) {
-      if (isSubmitting) {
-        setSend(true);
-      }
-      console.log(formValues);
-    }
-  }, [formErrors]);
+  console.log(isDirty);
+  const onError = (errors, e) => console.log(errors, e);
 
   const form = useRef();
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setFormValues({ ...formValues, [name]: value });
-    setFormErrors(validateForm(formValues));
-
-    console.log(formValues);
+  const sendMail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_frgmv5c",
+        "template_dxz667m",
+        e.target,
+        "KF7EFQKoBhcp7aC9P"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    if (send) {
-      emailjs
-        .sendForm(
-          "service_frgmv5c",
-          "template_dxz667m",
-          e.target,
-          "KF7EFQKoBhcp7aC9P"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-
-      e.target.reset();
-    }
+  const onSubmit = (data, e) => {
+    console.log(data);
+    console.log(e);
+    sendMail(e);
+    setIsSubmitted(true);
+    setTimeout(() => {
+      setIsSubmitted(false);
+    }, 3000);
   };
 
   return (
@@ -78,43 +81,30 @@ const Contact = () => {
               Send a message
             </a>
           </article>
+          <h2 className="success_message">
+            {" "}
+            {isSubmitted && "Thanks for contacting me!"}
+          </h2>
         </div>
 
         {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
-          {Object.keys(formErrors).length === 0 && isSubmitting ? (
-            <div className="success_message">
-              The message was received successfully!
-            </div>
-          ) : (
-            ""
-          )}
-          <p className="error_message">{formErrors.userName}</p>
-          <input
-            type="text"
-            name="userName"
-            placeholder="Your Full Name"
-            value={formValues.userName}
-            onChange={handleChange}
-          />
-          <p className="error_message">{formErrors.email}</p>
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formValues.email}
-            onChange={handleChange}
-          />
-          <p className="error_message">{formErrors.message}</p>
+        <form ref={form} onSubmit={handleSubmit(onSubmit)}>
+          <p className="error_message"> {errors.name?.message}</p>
+          <input placeholder="Name" {...register("name")} />
+          <p className="error_message"> {errors.email?.message}</p>
+          <input placeholder="Email" {...register("email")} />
+          <p className="error_message"> {errors.message?.message}</p>
           <textarea
-            name="message"
+            name="Message"
             rows="7"
             placeholder="Your Message"
-            value={formValues.message}
-            onChange={handleChange}
+            {...register("message")}
           ></textarea>
-
-          <button type="submit" className="btn btn-primary">
+          <button
+            disabled={!isDirty || !isFormValid}
+            type="submit"
+            className={isDirty ? "btn btn-primary" : "btn-disabled"}
+          >
             Send Message
           </button>
         </form>

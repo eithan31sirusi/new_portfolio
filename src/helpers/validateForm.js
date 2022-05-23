@@ -1,33 +1,42 @@
-export const validateForm = (values) => {
-  const errors = {};
+import * as yup from "yup";
 
-  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+export const validationSchema = yup
+  .object({
+    name: yup
+      .string()
+      .required("First name is required")
+      .min(2, "Name must be at least 2 characters")
+      .max(20, "Name must be less than 20 characters"),
 
-  //user name validation
+    /*     lastName: yup
+      .string()
+      .required("Last name is required")
+      .min(2, "Name must be at least 2 characters")
+      .max(20, "Name must be less than 20 characters"), */
 
-  if (!values.userName) {
-    errors.userName = "name is required";
-  } else if (values.userName.length < 2) {
-    errors.userName = "name must be at least 2 characters";
-  }
+    email: yup
+      .string()
+      .email()
+      .required("Email is required")
+      .min(2, "Email must be at least 5 characters"),
 
-  // email validation
+    message: yup
+      .string()
+      .required("Message is required")
+      .min(2, "Message must be at least 5 characters")
+      .max(20, "Message must be less than 255 characters"),
 
-  if (!values.email) {
-    errors.email = "Email is required";
-  } else if (!regex.test(values.email)) {
-    errors.email = "Email is not valid";
-  }
-
-  //password validation
-
-  if (!values.message) {
-    errors.message = "Message is required";
-  } else if (values.message.length < 10) {
-    errors.message = "Message must be at least 10 characters";
-  } else if (values.message.length > 250) {
-    errors.message = "Message must be less than 250 characters";
-  }
-
-  return errors;
-};
+    /*     password: yup
+      .string()
+      .required("Password is required")
+      .matches(
+        /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})/,
+        "Must Contain 8 Characters, One Uppercase, One Lowercase, and One Number"
+      )
+      .max(20, "Password must be less than 20 characters"),
+    confirmPassword: yup
+      .string()
+      .oneOf([yup.ref("password"), null], "Passwords must match")
+      .required("Password is required"), */
+  })
+  .required();
