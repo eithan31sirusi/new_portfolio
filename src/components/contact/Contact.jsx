@@ -12,13 +12,13 @@ import { useForm } from "react-hook-form";
 import AnimatedBG from "../../UI/AnimatedBG";
 
 const Contact = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isFormValid, setIsFormValid] = useState(true);
+  const [isconfirmMsg, setIsconfirmMsg] = useState(false);
 
   const {
     register,
     handleSubmit,
     watch,
+    reset,
     formState: { errors, isDirty },
   } = useForm({
     defaultValues: {
@@ -52,16 +52,17 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    e.target.reset();
+    reset();
   };
 
   const onSubmit = (data, e) => {
     console.log(data);
     console.log(e);
     sendMail(e);
-    setIsSubmitted(true);
+    setIsconfirmMsg(true);
+
     setTimeout(() => {
-      setIsSubmitted(false);
+      setIsconfirmMsg(false);
     }, 3000);
   };
 
@@ -83,12 +84,12 @@ const Contact = () => {
           </article>
           <h2 className="success_message">
             {" "}
-            {isSubmitted && "Thanks for contacting me!"}
+            {isconfirmMsg && "Thanks for contacting me!"}
           </h2>
         </div>
 
         {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={handleSubmit(onSubmit)}>
+        <form id="form" ref={form} onSubmit={handleSubmit(onSubmit)}>
           <p className="error_message"> {errors.name?.message}</p>
           <input placeholder="Name" {...register("name")} />
           <p className="error_message"> {errors.email?.message}</p>
@@ -101,9 +102,9 @@ const Contact = () => {
             {...register("message")}
           ></textarea>
           <button
-            disabled={!isDirty || !isFormValid}
+            disabled={!isDirty}
             type="submit"
-            className={isDirty ? "btn btn-primary" : "btn-disabled"}
+            className={!isDirty ? "btn-disabled" : "btn btn-primary"}
           >
             Send Message
           </button>
