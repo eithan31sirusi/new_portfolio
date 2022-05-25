@@ -15,12 +15,18 @@ const Services = () => {
     switch (service) {
       case "webdev":
         setIsWebDevClicked(!isWebDevClicked);
+        setIsWebDesignClicked(false);
+        setIsContentClicked(false);
         break;
       case "webdesign":
         setIsWebDesignClicked(!isWebDesignClicked);
+        setIsWebDevClicked(false);
+        setIsContentClicked(false);
         break;
       case "content":
         setIsContentClicked(!isContentClicked);
+        setIsWebDevClicked(false);
+        setIsWebDesignClicked(false);
         break;
       default:
         setIsWebDevClicked(false);

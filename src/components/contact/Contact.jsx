@@ -84,7 +84,7 @@ const Contact = () => {
           </article>
           <h2 className="success_message">
             {" "}
-            {!isconfirmMsg && "Thanks for contacting me!"}
+            {isconfirmMsg && "Thanks for contacting me!"}
           </h2>
         </div>
 
