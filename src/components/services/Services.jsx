@@ -7,10 +7,12 @@ import ContentImg from "../../assets/services/content.gif";
 import "./services.css";
 
 const Services = () => {
-  const [isWebDevClicked, setIsWebDevClicked] = useState(false);
-  const [isWebDesignClicked, setIsWebDesignClicked] = useState(false);
-  const [isContentClicked, setIsContentClicked] = useState(false);
+  const [buttonClicked, setButtonClicked] = useState(false);
+  //const [isWebDevClicked, setIsWebDevClicked] = useState(false);
+  //const [isWebDesignClicked, setIsWebDesignClicked] = useState(false);
+  //const [isContentClicked, setIsContentClicked] = useState(false);
 
+  /*
   const handleServiceClick = (service) => {
     switch (service) {
       case "webdev":
@@ -36,6 +38,7 @@ const Services = () => {
         break;
     }
   };
+*/
   return (
     <section id="services">
       <h2>Services</h2>
@@ -45,12 +48,12 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              handleServiceClick("webdesign");
+              setButtonClicked("webdesign");
             }}
           >
             <h3>UI/UX Design</h3>
           </div>
-          {isWebDesignClicked ? (
+          {buttonClicked === "webdesign" ? (
             <div className="service__body">
               <img src={WebDesignImg} alt="web design" />
             </div>
@@ -61,12 +64,12 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              handleServiceClick("webdev");
+              setButtonClicked("webdev");
             }}
           >
             <h3>Web Development</h3>
           </div>
-          {isWebDevClicked ? (
+          {buttonClicked === "webdev" ? (
             <div className="service__body">
               <img src={WebDevImg} alt="Web Development" />
             </div>
@@ -77,12 +80,12 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              handleServiceClick("content");
+              setButtonClicked("content");
             }}
           >
             <h3>Content Creation</h3>
           </div>
-          {isContentClicked ? (
+          {buttonClicked === "content" ? (
             <div className="service__body">
               <img src={ContentImg} alt="Content Creation" />
             </div>
