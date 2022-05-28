@@ -48,7 +48,9 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              setButtonClicked("webdesign");
+              setButtonClicked((prev) =>
+                prev === "webdesign" ? false : "webdesign"
+              );
             }}
           >
             <h3>UI/UX Design</h3>
@@ -64,7 +66,9 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              setButtonClicked("webdev");
+              setButtonClicked((prev) =>
+                prev === "webdev" ? false : "webdev"
+              );
             }}
           >
             <h3>Web Development</h3>
@@ -80,7 +84,9 @@ const Services = () => {
           <div
             className="service__head"
             onClick={() => {
-              setButtonClicked("content");
+              setButtonClicked((prev) =>
+                prev === "content" ? false : "content"
+              );
             }}
           >
             <h3>Content Creation</h3>
