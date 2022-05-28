@@ -32,12 +32,16 @@
 
 .experience__details {
   display: flex;
+  gap: 1rem;
 }
 
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
-  margin-right: 2rem;
+}
+
+.br_mobile {
+  display: none;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
@@ -64,7 +68,12 @@
   }
 
   .experience__container > div {
-    width: 100%;
-    padding: 2rem 1rem;
+    width: 80%;
+    align-items: center;
+    padding: 2rem 0.5rem;
+  }
+
+  .br_mobile {
+    display: block;
   }
 }
