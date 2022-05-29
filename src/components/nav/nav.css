@@ -38,7 +38,7 @@ nav a.active {
 @media screen and (max-width: 650px) {
   nav {
     transform: translateX(200%);
-    bottom: 20rem;
+    bottom: 1rem;
     flex-direction: column;
     padding: 0.7rem 0.7rem;
   }

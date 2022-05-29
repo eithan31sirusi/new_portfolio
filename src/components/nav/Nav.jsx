@@ -19,9 +19,9 @@ const Nav = () => {
     window.addEventListener(
       "resize",
       () => {
-        const ismobile = window.innerWidth <= 900;
+        const ismobile = window.innerWidth <= 700;
         if (ismobile !== isMobile) setIsMobile(ismobile);
-        if (ismobile) setShowNav(false);
+
         console.log(ismobile, "size");
       },
       false
@@ -71,19 +71,19 @@ const Nav = () => {
               <RiServiceLine />
             </a>
             <a
+              href="#myart"
+              onClick={() => setActiveNav("#myart")}
+              className={activeNav === "#myart" ? "active" : ""}
+            >
+              <VscSymbolColor />
+            </a>
+            <a
               href="#contact"
               onClick={() => setActiveNav("#contact")}
               className={activeNav === "#contact" ? "active" : ""}
             >
               <BiMessageSquareDetail />
             </a>
-            <a
-              href="#myart"
-              onClick={() => setActiveNav("#myart")}
-              className={activeNav === "#contact" ? "active" : ""}
-            >
-              <VscSymbolColor />
-            </a>{" "}
           </>
         )}
       </nav>
