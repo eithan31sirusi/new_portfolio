@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
@@ -15,7 +15,7 @@ const Nav = () => {
   const [showNav, setShowNav] = useState(true);
   const [isMobile, setIsMobile] = useState();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.addEventListener(
       "resize",
       () => {
