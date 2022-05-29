@@ -78,7 +78,7 @@ const MyArt = () => {
   };
 
   return (
-    <section id="testimonials">
+    <section id="myart">
       <h2 style={{ marginBottom: "unset" }}>My Art</h2>
       <h4 style={{ marginBottom: "2rem" }}>Comedy Sketchs</h4>
 

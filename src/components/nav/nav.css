@@ -37,22 +37,59 @@ nav a.active {
 
 @media screen and (max-width: 650px) {
   nav {
-    left: 45%;
-    transform: translateX(-50%);
-    bottom: 2rem;
+    transform: translateX(200%);
+    bottom: 20rem;
+    flex-direction: column;
+    padding: 0.7rem 0.7rem;
   }
 }
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 590px) {
   nav {
-    left: 40%;
-    transform: translateX(-50%);
-    bottom: 2rem;
+    transform: translateX(180%);
+  }
+}
+@media screen and (max-width: 552px) {
+  nav {
+    transform: translateX(150%);
+  }
+}
+@media screen and (max-width: 530px) {
+  nav {
+    transform: translateX(130%);
+  }
+}
+@media screen and (max-width: 497px) {
+  nav {
+    transform: translateX(120%);
+  }
+}
+@media screen and (max-width: 470px) {
+  nav {
+    transform: translateX(100%);
+  }
+}
+@media screen and (max-width: 439px) {
+  nav {
+    transform: translateX(80%);
+  }
+}
+@media screen and (max-width: 418px) {
+  nav {
+    transform: translateX(70%);
   }
 }
 @media screen and (max-width: 414px) {
   nav {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
+    transform: translateX(130%);
+  }
+}
+@media screen and (max-width: 388px) {
+  nav {
+    transform: translateX(120%);
+  }
+}
+@media screen and (max-width: 368px) {
+  nav {
+    transform: translateX(100%);
   }
 }
