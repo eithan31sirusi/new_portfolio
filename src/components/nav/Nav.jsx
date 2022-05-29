@@ -33,6 +33,8 @@ const Nav = () => {
       <nav className={isMobile ? "nav_mobile" : ""}>
         {isMobile && (
           <a
+            href="#null"
+            className="mobile_menu_btn"
             onClick={() => {
               setShowNav(!showNav);
             }}
