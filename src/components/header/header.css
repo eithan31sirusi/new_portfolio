@@ -70,6 +70,18 @@ header {
   font-size: 0.9rem;
 }
 
+/* =============== Clock ============== */
+
+.clock-container {
+  position: fixed;
+  width: max-content;
+  height: max-content;
+  top: 0.5vw;
+  left: 0.5vw;
+  margin: 2em;
+  z-index: 100000000;
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   header {
@@ -103,5 +115,9 @@ header {
 
   .me img {
     transform: translate(-8%, 0);
+  }
+
+  .clock-container {
+    display: none;
   }
 }

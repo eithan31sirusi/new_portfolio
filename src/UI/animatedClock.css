@@ -1,0 +1,97 @@
+/* clock shape */
+
+.clock {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/clock/clock.png") no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(77, 181, 255, 0.2);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(77, 181, 255, 0.2),
+    inset 0 -15px 15px rgba(77, 181, 255, 0.1),
+    0 15px 15px rgba(77, 181, 255, 0.1),
+    inset 0 15px 15px rgba(77, 181, 255, 0.2);
+  backdrop-filter: blur(15px);
+}
+
+/* clock center spot */
+
+.clock:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: var(--color-bg-variant);
+  border-radius: 50%;
+  z-index: 10000;
+}
+
+/* click dailes position */
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+  position: absolute;
+}
+/*  hour lenght */
+.clock .hour,
+.hr {
+  width: 120px;
+  height: 120px;
+}
+
+/*  min lenght */
+.clock .min,
+.mn {
+  width: 190px;
+  height: 140px;
+}
+
+/*  sec lenght */
+.clock .sec,
+.sc {
+  width: 230px;
+  height: 140px;
+}
+
+/*  dailes shape amd position */
+
+.hr,
+.mn,
+.sc {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hr:before {
+  content: "";
+  position: absolute;
+  width: 2.5px;
+  height: 60px;
+  background: var(--color-bg-variant);
+  z-index: 10;
+}
+
+.mn:before {
+  content: "";
+  position: absolute;
+  width: 2.4px;
+  height: 65px;
+  background: var(--color-light);
+  z-index: 11;
+}
+
+.sc:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  background: var(--color-primary);
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}

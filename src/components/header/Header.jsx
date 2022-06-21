@@ -5,11 +5,16 @@ import ME from "../../assets/main_profile_pic.png";
 import HeaderSocial from "./HeaderSocials";
 import AnimatedBG from "../../UI/AnimatedBG";
 
+import Clock from "../../UI/AnimatedClock";
+
 const Header = () => {
   return (
     <>
       <header>
         <div className="container header__container">
+          <div className="clock-container">
+            <Clock />
+          </div>
           <h3>Hello I'm</h3>
           <h1>Eithan Sirusi</h1>
           <h4 className="text-light">Fullstack Developer</h4>
