@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.439741f7.css",
-    "main.js": "/new_portfolio/static/js/main.62d83893.js",
+    "main.css": "/new_portfolio/static/css/main.52342f8f.css",
+    "main.js": "/new_portfolio/static/js/main.f4318b1e.js",
     "static/media/webdev.gif": "/new_portfolio/static/media/webdev.5ccca643e41c188b766a.gif",
     "static/media/webdesgin.gif": "/new_portfolio/static/media/webdesgin.987f2a022b6c19082660.gif",
     "static/media/content.gif": "/new_portfolio/static/media/content.4a09d155e9d5ef7b96b6.gif",
@@ -9,8 +9,8 @@
     "static/media/Inked.png": "/new_portfolio/static/media/Inked.51464960f483fe543343.png",
     "static/media/cartoon.png": "/new_portfolio/static/media/cartoon.74bf1c5f97ebf2476dc5.png",
     "static/media/clothing_project.png": "/new_portfolio/static/media/clothing_project.26ce60d0433c25a021cc.png",
+    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.6cf9d40b73ca59c16f04.pdf",
     "static/media/junpradox.png": "/new_portfolio/static/media/junpradox.48fd9dad8e2ef76026ad.png",
-    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.08fb7ac023439922d30b.pdf",
     "static/media/Inkedhook2_LI.jpg": "/new_portfolio/static/media/Inkedhook2_LI.b6671c9736055e26ead1.jpg",
     "static/media/WP.png": "/new_portfolio/static/media/WP.6bea0f69a7c13a9389c3.png",
     "static/media/placeholder.jpg": "/new_portfolio/static/media/placeholder.b0902b10214a5048ed4b.jpg",
@@ -19,11 +19,11 @@
     "static/media/ZOOM_INTERVIEW.png": "/new_portfolio/static/media/ZOOM_INTERVIEW.bee313f82b83d21c56ac.png",
     "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
-    "main.439741f7.css.map": "/new_portfolio/static/css/main.439741f7.css.map",
-    "main.62d83893.js.map": "/new_portfolio/static/js/main.62d83893.js.map"
+    "main.52342f8f.css.map": "/new_portfolio/static/css/main.52342f8f.css.map",
+    "main.f4318b1e.js.map": "/new_portfolio/static/js/main.f4318b1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.439741f7.css",
-    "static/js/main.62d83893.js"
+    "static/css/main.52342f8f.css",
+    "static/js/main.f4318b1e.js"
   ]
 }
