@@ -105,3 +105,17 @@ header {
     transform: translate(-8%, 0);
   }
 }
+
+/* ================ MEDIA QUERIES (VERY SMALL DEVICES) ================= */
+
+@media screen and (max-width: 599px) {
+  .me {
+    width: 94%;
+    max-width: 20rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+  }
+  .me img {
+    transform: translate(0, 0);
+  }
+}
