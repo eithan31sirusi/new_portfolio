@@ -1,8 +1,12 @@
 .container.testimonials__container {
-  width: 40%;
-  padding-bottom: 4rem;
+  width: 50%;
   cursor: pointer;
   height: auto;
+}
+
+.container.testimonials__container img {
+  max-height: 40rem;
+  object-fit: contain;
 }
 
 .client__avatar {
@@ -41,6 +45,10 @@
 @media screen and (max-width: 1024px) {
   .container.testimonials__container {
     width: 60%;
+  }
+  .container.testimonials__container img {
+    max-height: 25rem;
+    object-fit: contain;
   }
 }
 
