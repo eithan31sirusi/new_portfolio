@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/clothing_project.png";
-import IMG2 from "../../assets/placeholder.jpg";
+import IMG2 from "../../assets/tamara.png";
 import IMG3 from "../../assets/placeholder2.jpg";
 
 import AnimatedBG from "../../UI/AnimatedBG";
@@ -17,9 +17,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Users Management System",
-    github: "https://github.com/eithan31sirusi/employee-system",
-    demo: "",
+    title: "women's clothing e-commerce site",
+    github: ".",
+    demo: "https://www.tammaradesign.com/",
   },
   {
     id: 3,

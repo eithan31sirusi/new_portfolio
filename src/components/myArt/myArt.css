@@ -2,11 +2,11 @@
   width: 40%;
   padding-bottom: 4rem;
   cursor: pointer;
+  height: auto;
 }
 
 .client__avatar {
   width: 100%;
-
   overflow: hidden;
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary-variant);

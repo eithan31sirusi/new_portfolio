@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/main_profile_pic.png";
+import ME from "../../assets/profileImages/main_pic.png";
 import HeaderSocial from "./HeaderSocials";
 import AnimatedBG from "../../UI/AnimatedBG";
 
