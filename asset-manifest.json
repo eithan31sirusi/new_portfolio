@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.f592236f.css",
-    "main.js": "/new_portfolio/static/js/main.aeb231f7.js",
+    "main.css": "/new_portfolio/static/css/main.abc94e07.css",
+    "main.js": "/new_portfolio/static/js/main.60f1515e.js",
     "static/media/father_kids.png": "/new_portfolio/static/media/father_kids.41ebafc2ec79102f8a3f.png",
     "static/media/father_daוghter.png": "/new_portfolio/static/media/father_daוghter.5030448e4408de88d24b.png",
     "static/media/webdev.gif": "/new_portfolio/static/media/webdev.5ccca643e41c188b766a.gif",
@@ -39,11 +39,11 @@
     "static/media/18.jpeg": "/new_portfolio/static/media/18.8df6c27be0a4762e2736.jpeg",
     "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
-    "main.f592236f.css.map": "/new_portfolio/static/css/main.f592236f.css.map",
-    "main.aeb231f7.js.map": "/new_portfolio/static/js/main.aeb231f7.js.map"
+    "main.abc94e07.css.map": "/new_portfolio/static/css/main.abc94e07.css.map",
+    "main.60f1515e.js.map": "/new_portfolio/static/js/main.60f1515e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f592236f.css",
-    "static/js/main.aeb231f7.js"
+    "static/css/main.abc94e07.css",
+    "static/js/main.60f1515e.js"
   ]
 }
