@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new_portfolio/static/css/main.73794173.css",
-    "main.js": "/new_portfolio/static/js/main.cfa2f6c2.js",
+    "main.css": "/new_portfolio/static/css/main.f592236f.css",
+    "main.js": "/new_portfolio/static/js/main.aeb231f7.js",
     "static/media/father_kids.png": "/new_portfolio/static/media/father_kids.41ebafc2ec79102f8a3f.png",
     "static/media/father_daוghter.png": "/new_portfolio/static/media/father_daוghter.5030448e4408de88d24b.png",
     "static/media/webdev.gif": "/new_portfolio/static/media/webdev.5ccca643e41c188b766a.gif",
@@ -16,13 +16,13 @@
     "static/media/11.jpeg": "/new_portfolio/static/media/11.9f9a409550c2870df25c.jpeg",
     "static/media/13.jpeg": "/new_portfolio/static/media/13.15edba08e7398bceca17.jpeg",
     "static/media/10.jpeg": "/new_portfolio/static/media/10.dabe9a81a9eb59f4a267.jpeg",
-    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.f50b39a482c35aa011ee.pdf",
     "static/media/12.jpeg": "/new_portfolio/static/media/12.544639b0a24d88676233.jpeg",
     "static/media/junpradox.png": "/new_portfolio/static/media/junpradox.48fd9dad8e2ef76026ad.png",
     "static/media/8.jpeg": "/new_portfolio/static/media/8.1a4628cf443fdc5adabd.jpeg",
     "static/media/5.jpeg": "/new_portfolio/static/media/5.115330f785fada5941c0.jpeg",
     "static/media/6.jpeg": "/new_portfolio/static/media/6.541cfdbf74a904e7d10e.jpeg",
     "static/media/2.jpeg": "/new_portfolio/static/media/2.bba0f5543fbace1a56d5.jpeg",
+    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.1d23e1226180cab857d4.pdf",
     "static/media/Inkedhook2_LI.jpg": "/new_portfolio/static/media/Inkedhook2_LI.b6671c9736055e26ead1.jpg",
     "static/media/main_pic.png": "/new_portfolio/static/media/main_pic.9b694ca643113f21f306.png",
     "static/media/starwars.png": "/new_portfolio/static/media/starwars.288fd8eedda341358898.png",
@@ -39,11 +39,11 @@
     "static/media/18.jpeg": "/new_portfolio/static/media/18.8df6c27be0a4762e2736.jpeg",
     "static/media/placeholder2.jpg": "/new_portfolio/static/media/placeholder2.1d3a4e59d6e226941482.jpg",
     "index.html": "/new_portfolio/index.html",
-    "main.73794173.css.map": "/new_portfolio/static/css/main.73794173.css.map",
-    "main.cfa2f6c2.js.map": "/new_portfolio/static/js/main.cfa2f6c2.js.map"
+    "main.f592236f.css.map": "/new_portfolio/static/css/main.f592236f.css.map",
+    "main.aeb231f7.js.map": "/new_portfolio/static/js/main.aeb231f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.73794173.css",
-    "static/js/main.cfa2f6c2.js"
+    "static/css/main.f592236f.css",
+    "static/js/main.aeb231f7.js"
   ]
 }
