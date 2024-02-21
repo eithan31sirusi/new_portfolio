@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/new_portfolio/static/css/main.bdbbbf16.css",
-    "main.js": "/new_portfolio/static/js/main.279f777c.js",
+    "main.js": "/new_portfolio/static/js/main.20a30e9c.js",
     "static/media/webdev.gif": "/new_portfolio/static/media/webdev.5ccca643e41c188b766a.gif",
     "static/media/webdesgin.gif": "/new_portfolio/static/media/webdesgin.987f2a022b6c19082660.gif",
     "static/media/content.gif": "/new_portfolio/static/media/content.4a09d155e9d5ef7b96b6.gif",
     "static/media/me.png": "/new_portfolio/static/media/me.4e598c16dd4fe46cbfef.png",
     "static/media/tamara.png": "/new_portfolio/static/media/tamara.09f9f28744ca6b13ff48.png",
     "static/media/clothing_project.png": "/new_portfolio/static/media/clothing_project.26ce60d0433c25a021cc.png",
-    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.1189ef76fac52dcad467.pdf",
+    "static/media/Eithan_CV.pdf": "/new_portfolio/static/media/Eithan_CV.397a3b5e5c5579352208.pdf",
     "static/media/7.jpeg": "/new_portfolio/static/media/7.edc47eb82acb5561c558.jpeg",
     "static/media/9.jpeg": "/new_portfolio/static/media/9.410284002b293f5b8f94.jpeg",
     "static/media/11.jpeg": "/new_portfolio/static/media/11.abc94341a5ea7e021cfb.jpeg",
@@ -40,10 +40,10 @@
     "static/media/main_pic.png": "/new_portfolio/static/media/main_pic.39cd18943ae701d1b8f3.png",
     "index.html": "/new_portfolio/index.html",
     "main.bdbbbf16.css.map": "/new_portfolio/static/css/main.bdbbbf16.css.map",
-    "main.279f777c.js.map": "/new_portfolio/static/js/main.279f777c.js.map"
+    "main.20a30e9c.js.map": "/new_portfolio/static/js/main.20a30e9c.js.map"
   },
   "entrypoints": [
     "static/css/main.bdbbbf16.css",
-    "static/js/main.279f777c.js"
+    "static/js/main.20a30e9c.js"
   ]
 }
