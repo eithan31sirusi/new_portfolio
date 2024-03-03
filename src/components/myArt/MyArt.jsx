@@ -3,10 +3,10 @@ import { useState } from "react";
 import Modal from "../../UI/Modal";
 
 import "./myArt.css";
-import ART1 from "../../assets/arts/starwars.png";
+import ART1 from "../../assets/arts/new_art/father_kids.jpg";
 import ART2 from "../../assets/arts/ZOOM_INTERVIEW.png";
 import ART3 from "../../assets/arts/Inked.png";
-import ART4 from "../../assets/arts/Inkedhook2_LI.jpg";
+import ART4 from "../../assets/arts/Inkedhook2.jpg";
 import ART5 from "../../assets/arts/junpradox.png";
 import ART6 from "../../assets/arts/new_art/1.jpeg";
 import ART7 from "../../assets/arts/new_art/2.jpeg";
@@ -29,7 +29,7 @@ import ART23 from "../../assets/arts/new_art/18.jpeg";
 import ART24 from "../../assets/arts/new_art/19.jpeg";
 import ART25 from "../../assets/arts/new_art/20.jpeg";
 import ART26 from "../../assets/arts/new_art/father_daוghter.png";
-import ART27 from "../../assets/arts/new_art/father_kids.png";
+import ART27 from "../../assets/arts/starwars.png";
 
 // import Swiper core and required modules
 import { Pagination, Navigation } from "swiper";
@@ -202,7 +202,7 @@ const data = [
   {
     avatar: ART27,
     id: 27,
-    title: "Cartoon parody",
+    title: "Star Wars parody",
     text: "art27",
   },
 ];
@@ -210,7 +210,7 @@ const data = [
 const MyArt = () => {
   const [ismodalOpen, setIsModalOpen] = useState(false);
   const [selectedArt, setSelectedArt] = useState(null);
-  console.log(selectedArt);
+  console.log(selectedArt, "sdsdsdsdww2");
 
   //function to take cliked image id ano push i to the modal
   const handleClick = (id) => {

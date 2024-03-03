@@ -10,6 +10,9 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 import AnimatedBG from "./UI/AnimatedBG";
+import ImageSilder from "./components/imageslider/ImageSlider";
+import imageStock from "./helpers/imagesStock";
+import Iframe from "./components/iframe/Iframe";
 
 const App = () => {
   return (
@@ -22,6 +25,7 @@ const App = () => {
         <Services />
         <Portfolio />
         <MyArt />
+        <Iframe />
         <Contact />
         <Footer />
       </AnimatedBG>

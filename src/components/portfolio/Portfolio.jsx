@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/clothing_project.png";
 import IMG2 from "../../assets/tamara.png";
 import IMG3 from "../../assets/placeholder2.jpg";
+import IMG4 from "../../assets/personal_diary.png";
 
 import AnimatedBG from "../../UI/AnimatedBG";
 
@@ -25,7 +26,15 @@ const data = [
     id: 3,
     image: IMG3,
     title: "Users Management System (Expo)",
-    github: "https://github.com",
+    github: "https://github.com/eithan31sirusi/employees_system_expo",
+    demo: "",
+  },
+  ,
+  {
+    id: 4,
+    image: IMG4,
+    title: "Personal Note Journal",
+    github: "https://github.com/eithan31sirusi/Personal_Note_Journal",
     demo: "",
   },
 ];
